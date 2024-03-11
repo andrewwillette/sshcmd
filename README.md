@@ -3,5 +3,5 @@
 
 ## Example
 ```
-logs, err := sshcmd.RemoteRun(User, IPAddress, PrivateKeyPath, "cat "+LogLocation)
+logs, err := sshcmd.RemoteRun("ubuntu", "3.123.5.788", "/Users/jim/.ssh/id_rsa", "cat /home/ubuntu/server.log")
 ```
